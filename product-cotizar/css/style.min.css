@@ -1,0 +1,14 @@
+p.tipo_text {
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 150%;
+}
+
+button.btn.btn-info.btn-rounded.waves-effect.waves-light {
+    margin-left: 36%;
+}
+
+.col-md-6.mb-4.text_prin>h2 {
+    font-weight: 600;
+    text-align: center;
+}
