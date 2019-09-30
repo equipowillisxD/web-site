@@ -1,0 +1,172 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.artes table td {
+    vertical-align: top;
+    padding: 4% 1%;
+}
+
+.icon-green {
+    color: greenyellow;
+}
+
+p.tipo_text {
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 150%;
+}
+
+button.btn.btn-info.btn-rounded.waves-effect.waves-light {
+    margin-left: 36%;
+}
+
+.col-md-6.mb-4.text_prin>h2 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.title-values {
+    max-width: 500px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 100px;
+    top: 100px;
+}
+.text-values {
+    max-width: 500px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    top: 20px;
+}
+.image-values{
+    margin-left: 10px;
+}
+
+.user-list {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 8px 6px -6px #808080;
+    padding: 30px 40px;
+    border-top: 3px solid #cfd9df;
+}
+
+@media (min-width: 641px) {
+    .user-list {
+        flex: 1 0 50%;
+        border-left: 3px solid #ededed;
+        border-top: none;
+    }
+}
+
+.user-list>h2 {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.user-list__item {
+    padding: 10px;
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    border-left: 3px solid #f57f17;
+    margin-bottom: 10px;
+}
+
+.user-tittle_item {
+    padding: 10px;
+    border: 1px solid #ededed;
+    border-radius: 3px;
+    border-left: 3px solid #18d8ee;
+    margin-bottom: 10px;
+}
+
+.user-list__item h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.user-list__item p {
+    font-size: 14px;
+}
+
+.user-list__item h4 span,
+.user-list__item p span {
+    font-weight: 700;
+}
+.divider-new {
+flex-direction: row;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: 2.8rem;
+margin-bottom: 2.8rem; }
+.divider-new > h1, .divider-new h2, .divider-new h3, .divider-new h4, .divider-new h5, .divider-new h6 {
+margin-bottom: 0; }
+.divider-new:before, .divider-new:after {
+content: "";
+height: 1.5px;
+flex: 1;
+height: 2px;
+background: #c6c6c6; }
+.divider-new:before {
+margin: 0 0.5rem 0 0; }
+.divider-new:after {
+margin: 0 0 0 0.5rem; }
+
+#footer{
+    background: #4b515d;
+    color: white;
+}
+
+#footer2{
+    background: #212121;
+    color: white;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #1C2331 !important;
+    }
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    z-index:2;
+  }
